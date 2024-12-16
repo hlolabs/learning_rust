@@ -1,0 +1,46 @@
+# Diretórios e arquivos gerados pelo Cargo
+/target/
+**/*.rs.bk
+
+# Arquivos de configuração local do Cargo
+/.cargo/
+/Cargo.lock
+
+# Diretórios gerados pelo compilador Rust durante o desenvolvimento
+**/debug/
+**/release/
+
+# Arquivos de metadados do Rust Analyzer
+/.rust-analyzer.json
+
+# Arquivos gerados pelo `rustfmt` e `clippy`
+**/*.rs.bk
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de logs e debugging
+*.log
+*.tmp
+
+# Configurações locais de IDEs/editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Arquivos específicos de binários
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+
+# Outras exclusões opcionais
+*.profraw
+*.profdata
+
+#custom
+*.code-workspace
